@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ADD8E6"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shibal"
+        android:textSize="45sp"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/border_dsn"
+        android:hint="Username:"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textSize="20sp"
+        android:textColorHint="#757575"
+        >
+
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/emailEdTxt"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/border_dsn"
+        android:hint="Email Address:"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textSize="20sp"
+        android:textColorHint="#757575">
+        </EditText>
+
+    <EditText
+        android:id="@+id/passwordEdTxt"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/border_dsn"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="16dp"
+        android:textSize="20sp"
+        android:textColorHint="#757575"
+        >
+    </EditText>
+
+
+
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:fontFamily="sans-serif-black"
+        android:backgroundTint="#6200EE"
+        android:onClick="start"
+        >
+    </Button>
+
+    <TextView
+        android:id="@+id/RegisterBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dont have an account? Register here"
+        android:gravity="center"
+        android:textColor="#0066CC">
+
+    </TextView>
+
+
+
+
+
+</LinearLayout>
